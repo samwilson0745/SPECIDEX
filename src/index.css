@@ -1,11 +1,121 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+  font-family: 'Arvo', serif;
+  transition: all .3s linear;
+  
 }
+
+html{
+  background-color: #FCFDF5;
+  height:  100vh;
+}
+
+body {
+  margin: 40px;
+  background-color: #FCFDF5;
+  padding: 1rem 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  margin-bottom: 40px;
+}
+
+header h1{
+  padding-left: 10px;
+}
+
+header a {
+  color: #163E49;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5rem 1.5rem;
+  font-weight: bold;
+}
+
+header nav a {
+  font-weight: lighter;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  position: relative;
+  
+}
+
+header nav a:hover {
+  border-bottom: #163E49 solid 1px;
+}
+
+.svg{
+  position: absolute;
+  top: -15px;
+  left: -45px;
+}
+
+.home{
+  height: 70vh;
+  width: 100%;
+}
+
+.hero h1{
+  font-size: 4em;
+  padding-top: 1.8em;
+  color: #163E49;
+
+}
+
+.hero h4{
+  word-spacing: 7px;
+  font-weight: lighter;
+  color: #163E49;
+}
+
+.buttons{
+  display: flex;
+  margin-top: 3em;
+  width: 33%;
+  justify-content: space-between;
+  
+}
+
+
+.button{
+  position: relative;
+  background-color: #163E49;
+  color: #FCFDF5;
+  width: 10em;
+  padding: .7em;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button:hover{
+  background-color: #215868;
+  
+}
+
+
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
