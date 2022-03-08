@@ -30,7 +30,7 @@ import Webcam from "react-webcam";
   const runCoco = async () => {
     // 3. TODO - Load network 
     // e.g. const net = await cocossd.load();
-    const net = await tf.loadGraphModel('http://192.168.55.205:8080/model.json')
+    const net = await tf.loadGraphModel('http://127.0.0.1:8080/model.json')
     //  Loop and detect hands
     setInterval(() => {
       detect(net);
@@ -67,7 +67,7 @@ import Webcam from "react-webcam";
       const boxes   =  await obj[1].array()
       const classes =  await obj[4].array()
       const scores  =  await obj[2].array()
-
+      console.log(scores)
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
       
