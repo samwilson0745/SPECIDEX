@@ -5,14 +5,12 @@ import React,{Component} from 'react';
 class Upload extends Component {
   
     state = {
- 
       // Initially, no file is selected
       selectedFile: null
     };
     
     // On file select (from the pop up)
     onFileChange = event => {
-    
       // Update the state
       this.setState({ selectedFile: event.target.files[0] });
     
@@ -49,15 +47,15 @@ class Upload extends Component {
           <div>
             <h2>File Details:</h2>
              
-<p>File Name: {this.state.selectedFile.name}</p>
+            <p>File Name: {this.state.selectedFile.name}</p>
  
              
-<p>File Type: {this.state.selectedFile.type}</p>
+            <p>File Type: {this.state.selectedFile.type}</p>
  
              
-<p>
-              Last Modified:{" "}
-              {this.state.selectedFile.lastModifiedDate.toDateString()}
+            <p>
+                Last Modified:{" "}
+                {this.state.selectedFile.lastModifiedDate.toDateString()}
             </p>
  
           </div>
@@ -77,15 +75,12 @@ class Upload extends Component {
       return (
         <div>
             <h1>
-              GeeksforGeeks
+              Upload your file 
             </h1>
-            <h3>
-              File Upload using React!
-            </h3>
             <div>
                 <input type="file" onChange={this.onFileChange} />
                 <button onClick={this.onFileUpload}>
-                  Upload!
+                  Upload
                 </button>
             </div>
           {this.fileData()}

@@ -30,7 +30,7 @@ import Webcam from "react-webcam";
   const runCoco = async () => {
     // 3. TODO - Load network 
     // e.g. const net = await cocossd.load();
-    const net = await tf.loadGraphModel('http://192.168.50.50:8080/model.json')
+    const net = await tf.loadGraphModel('http://192.168.55.205:8080/model.json')
     //  Loop and detect hands
     setInterval(() => {
       detect(net);
