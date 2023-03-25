@@ -31,6 +31,7 @@ DETECTION BY UPLOADING THE FILE
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][React-url]
+* [![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 
