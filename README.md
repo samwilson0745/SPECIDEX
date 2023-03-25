@@ -16,10 +16,12 @@ We have created a website called Specidex. It is fully functional and connected 
 
 REAL-TIME DETECTION USING THE WEBCAM
 
+![SMART INDIA HACKATHON (1)](https://user-images.githubusercontent.com/83553018/227719221-301970e4-3bab-42e1-937d-b46544c2b8fe.png)
 
 
 DETECTION BY UPLOADING THE FILE
 
+![Screenshot (100)](https://user-images.githubusercontent.com/83553018/227719217-7ea083d4-042f-4fa6-889f-727de2d0df2c.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
