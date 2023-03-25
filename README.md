@@ -31,7 +31,10 @@ DETECTION BY UPLOADING THE FILE
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][React-url]
-* [![My Skills](https://skillicons.dev/icons?i=tensorflowjs)](https://skillicons.dev)
+* <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+  <path d="M124.228 229L90.623 208.89V90.31L40 120.459L40.123 75.545L124.228 26V229ZM131.784 26V229L165.393 208.89V151.781L190.763 166.895L190.612 127.833L165.393 112.988V90.31L216 120.459L215.878 75.545L131.784 26Z" fill="#FF6F00"/>
+</svg>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 
