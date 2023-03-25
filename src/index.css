@@ -10,7 +10,6 @@
   list-style: none;
   font-family: 'Arvo', serif;
   transition: all .3s linear;
-  
 }
 
 html{
@@ -56,8 +55,7 @@ header nav a {
   font-weight: lighter;
   text-decoration: none;
   letter-spacing: 0.15em;
-  position: relative;
-  
+  position: relative; 
 }
 
 header nav a:hover {
@@ -79,7 +77,6 @@ header nav a:hover {
   font-size: 4em;
   padding-top: 1.8em;
   color: #163E49;
-
 }
 
 .hero h4{
@@ -93,9 +90,18 @@ header nav a:hover {
   margin-top: 3em;
   width: 33%;
   justify-content: space-between;
-  
 }
-
+.input{
+  color: #163E49;
+  background-color: #163E49;
+}
+.button2{
+  color: #FCFDF5;
+  width: 10em;
+  padding: .7em;
+  font-size: 20px;
+  text-align: center;
+}
 
 .button{
   position: relative;
@@ -108,8 +114,7 @@ header nav a:hover {
 }
 
 .button:hover{
-  background-color: #215868;
-  
+  background-color: #215868;  
 }
 
 
