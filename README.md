@@ -14,7 +14,13 @@
 ## About The Project
 We have created a website called Specidex. It is fully functional and connected with our trained data model. We trained our data model through Tensorflow using various dependencies such as Jupyter Notebook, Anaconda & Python. Our basic approach involves the idea of Neural Networks and Deep Learning which a aspect on Machine Learning. Our Website ‘Specidex’ is capable of multiple animal species identification irrespective of animal movement. The website allows all three format inputs: Static Image, Video or even Real Time Webcam Input. The website will be able to detect presence of any animal and will be able to classify the animal along with a detection score in Percentage.
 
-![SMART INDIA HACKATHON (1)](https://user-images.githubusercontent.com/83553018/227717662-1cb85425-b7b0-4fe7-9fff-e703bcd4f60d.png)
+REAL-TIME DETECTION USING THE WEBCAM
+
+
+
+DETECTION BY UPLOADING THE FILE
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
