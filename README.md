@@ -41,8 +41,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 Contributors
 Debabrata Batabyal: [https://github.com/Kite2002](https://github.com/Kite2002)
 Madhura Bhose : [https://github.com/mbhose](https://github.com/mbhose)
