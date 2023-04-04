@@ -41,8 +41,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- CONTACT -->
 ## Contact
-Contributors
-Debabrata Batabyal: [https://github.com/Kite2002](https://github.com/Kite2002)
+Contributors</br>
+Debabrata Batabyal: [https://github.com/Kite2002](https://github.com/Kite2002)</br>
 Madhura Bhose : [https://github.com/mbhose](https://github.com/mbhose)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
