@@ -43,8 +43,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Contributors
+Debabrata Batabyal: [https://github.com/Kite2002](https://github.com/Kite2002)
+Madhura Bhose : [https://github.com/mbhose](https://github.com/mbhose)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
